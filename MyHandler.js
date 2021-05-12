@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { info } = require('node:console');
 const os = require('os');
 
 function start(res) {
