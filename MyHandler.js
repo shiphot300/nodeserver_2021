@@ -76,7 +76,7 @@ function nickname(res, postData) {
 }
 
 function people(res) {
-    Body = fs.readFileSync('people.json', 'utf-8');
+    str = fs.readFileSync('people.json', 'utf-8');
     obj = JSON.parse(str);
     console.log(obj.name + ": " + obj.house);
     res.writeHead(200, { 'Content-Type': 'text/html' });
