@@ -5,6 +5,6 @@ const myHandler = require('./MyHandler');
 let handle = {};
 handle['/'] = myHandler.start;
 handle['/hello'] = myHandler.hello;
-index['/wait'] = myHandler.wait;
+handle['/wait'] = myHandler.wait;
 
 myServer.start(myRouter.route, handle);
