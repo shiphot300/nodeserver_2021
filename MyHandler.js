@@ -13,7 +13,7 @@ function start(res) {
     Body += '<div><a href="/form">form을 입력하는 페이지</a></div>'
     Body += '<div><a href="/nickname">form으로 넘어온 이름과 별명 표시 페이지</a></div>'
     Body += '<div><a href="/people">JSON을 입력받아 사람 정보를 표시하는 페이지</a></div>'
-    Body += '<div><a href="/randomwait"></a></div>'
+    Body += '<div><a href="/randomwait">random으로 대기하는 페이지</a></div>'
 
     Body += '</body>'
     res.writeHead(200, { 'Content-Type': 'text/html' });

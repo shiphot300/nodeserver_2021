@@ -1,3 +1,3 @@
 git add --all
-git commit -m "[Bug] people.json 배, 대전 => Bae, Daejeon "
+git commit -m "add random wait server"
 git push -u origin master
