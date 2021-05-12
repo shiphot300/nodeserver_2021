@@ -6,7 +6,7 @@ function start(res) {
     Body += '<div><a href="/hello"> 페이지</a></div>'
     Body += '<div><a href="/wait">5초대기 페이지</a></div>'
     Body += '<div><a href="/firstHtml">HTML 읽는 페이지</a></div>'
-    Body += '<div><a href="/randomwait"></a></div>'
+    Body += '<div><a href="/page">handler 없이 "/page"로 매핑하는 페이지</a></div>'
     Body += '<div><a href="/randomwait"></a></div>'
     Body += '<div><a href="/randomwait"></a></div>'
     Body += '<div><a href="/randomwait"></a></div>'

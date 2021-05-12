@@ -1,3 +1,3 @@
 git add --all
-git commit -m "add Htmlfile functiion and firsthtml.html page "
+git commit -m "add the function for automapping from pathname to HTML page "
 git push -u origin master
