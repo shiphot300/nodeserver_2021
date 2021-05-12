@@ -61,3 +61,4 @@ exports.hello = hello;
 exports.wait = wait;
 exports.randomwait = randomwait;
 exports.firstHtml = firstHtml;
+exports.htmlFile = htmlFile;
