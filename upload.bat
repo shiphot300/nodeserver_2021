@@ -1,3 +1,3 @@
 git add --all
-git commit -m "add people reading people.json "
+git commit -m "[bug] str not undefind => defind str "
 git push -u origin master
