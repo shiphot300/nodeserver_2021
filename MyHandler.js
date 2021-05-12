@@ -82,3 +82,4 @@ exports.randomwait = randomwait;
 exports.firstHtml = firstHtml;
 exports.htmlFile = htmlFile;
 exports.serverInfo = serverInfo;
+exports.nickname = nickname;
