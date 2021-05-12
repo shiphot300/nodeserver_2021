@@ -10,6 +10,7 @@ handle['/randomwait'] = myHandler.randomwait;
 handle['/firstHtml'] = myHandler.firstHtml;
 handle['/serverInfo'] = myHandler.serverInfo;
 handle['/nickname'] = myHandler.nickname;
+handle['/people'] = myHandler.people;
 
 
 myServer.start(myRouter.route, handle);
